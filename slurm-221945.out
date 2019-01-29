@@ -892,3 +892,888 @@ input:  torch.Size([3, 2048])
 Freezing BatchNorm2D except the first one.
 main.py:182: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
   total_norm = clip_grad_norm(model.parameters(), args.clip_gradient)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.95595028164424 with coef 0.9109147972848406
+Epoch: [1][0/299], lr: 0.00100	Time 5.483 (5.483)	Data 3.627 (3.627)	Loss 1.1578 (1.1578)	Prec@1 68.750 (68.750)	Prec@5 87.500 (87.500)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.039333409443916 with coef 0.7987433080968815
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.325823047535327 with coef 0.6595039471360848
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.601766580077317 with coef 0.7811960919745093
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.001364343654977 with coef 0.7999563433855458
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.430231881525444 with coef 0.703476499359698
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.478960156440696 with coef 0.6561903653321873
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.00922880378258 with coef 0.768957824581533
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.480052259256883 with coef 0.8169917199599606
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.415422798154392 with coef 0.6799154354244011
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.543619472250036 with coef 0.9735382816555599
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.280953512537756 with coef 0.823690881401044
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.029148676855375 with coef 0.8323224542392461
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.220158330020524 with coef 0.8257584334289961
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.937107166087305 with coef 0.7710960159099757
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.78043021781509 with coef 0.7199312553185141
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.20520761680679 with coef 0.6621374782033147
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 34.143880700618794 with coef 0.5857564983712451
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.539125646742217 with coef 0.7831121658838469
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.530596718545826 with coef 0.6550805470451545
+Epoch: [1][20/299], lr: 0.00100	Time 1.712 (1.890)	Data 0.000 (0.173)	Loss 1.1867 (1.1676)	Prec@1 71.875 (69.048)	Prec@5 96.875 (89.435)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 32.61553685762222 with coef 0.6132046848502517
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.818037223389705 with coef 0.6489705965057622
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.505754638092995 with coef 0.7271205703370087
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.937297456466275 with coef 0.8355162079751539
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.021591626394297 with coef 0.6891420793686098
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.637685674011983 with coef 0.7508159772120225
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.804299340685358 with coef 0.7750646408161224
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 38.631308319556254 with coef 0.5177147984365685
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 32.68411844068397 with coef 0.6119179881292055
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.44722436173701 with coef 0.7562230246337439
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.182889319154995 with coef 0.8627052359463617
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.559319657934207 with coef 0.8865515584361126
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.295150029795998 with coef 0.8585478082098081
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.257435774862955 with coef 0.7077783051281481
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.386151238412953 with coef 0.6581945782826488
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 34.04759367528841 with coef 0.5874130251535488
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.665308507039946 with coef 0.7229270548315279
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.51186293375315 with coef 0.7543792773059838
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.77916080744956 with coef 0.8071298360510755
+Epoch: [1][40/299], lr: 0.00100	Time 1.713 (1.803)	Data 0.000 (0.089)	Loss 0.9779 (1.1777)	Prec@1 71.875 (67.530)	Prec@5 90.625 (90.549)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.587010727530338 with coef 0.6996184452660966
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.683211551199932 with coef 0.6972719900733473
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.356794062460743 with coef 0.6588310991881725
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.06285331573677 with coef 0.9065010637465736
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.60365922316213 with coef 0.8848124899841818
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.80129298851368 with coef 0.7193910012841185
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.952202479871143 with coef 0.8349962813151534
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 36.981331702261016 with coef 0.5408134071812566
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 35.04092577426733 with coef 0.5707611759129723
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.007096545329173 with coef 0.7690208695592343
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 41.30553700056152 with coef 0.4841965860346547
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.840078704892452 with coef 0.6934793834875072
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.635264958512987 with coef 0.6528424032592661
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.102065766977645 with coef 0.8298043907672883
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.074029322345634 with coef 0.7976380558100518
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.40557918540814 with coef 0.6577740183156303
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.233475948346467 with coef 0.7623846736658101
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.724102016318326 with coef 0.7483881025370865
+Epoch: [1][60/299], lr: 0.00100	Time 1.711 (1.790)	Data 0.000 (0.060)	Loss 1.1034 (1.1470)	Prec@1 71.875 (68.904)	Prec@5 96.875 (90.984)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.781354693381523 with coef 0.9624011665788866
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.6463396877467 with coef 0.7798383801940981
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 32.975354927609345 with coef 0.6065135627472673
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 31.388556472409707 with coef 0.6371748894403552
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.88526506386687 with coef 0.9138568777501584
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.052969783758126 with coef 0.7983085507477851
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 31.1869831896937 with coef 0.6412931920458841
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.808289696987085 with coef 0.8061821368697157
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.11060902804172 with coef 0.687034750139867
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.091999726127906 with coef 0.7970668028971128
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.69712520727142 with coef 0.9217811027470747
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.35096195469721 with coef 0.6814086717454002
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.355498882758567 with coef 0.7588549201428225
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.30238738542594 with coef 0.9388619049188369
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.729469751497547 with coef 0.7212543254246644
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.688690657168074 with coef 0.8814964381243996
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.078037988860473 with coef 0.7386059510008709
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 35.43949695788742 with coef 0.5643420961580211
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 31.71059897714263 with coef 0.6307039489987633
+Epoch: [1][80/299], lr: 0.00100	Time 1.712 (1.770)	Data 0.000 (0.045)	Loss 1.1528 (1.1284)	Prec@1 75.000 (69.059)	Prec@5 93.750 (91.397)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 33.12181444393716 with coef 0.6038316540252502
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.640178139567627 with coef 0.8833852753590548
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.84848030350709 with coef 0.9153954747502336
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.800797522030575 with coef 0.877162300164089
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 34.27592329591325 with coef 0.5834999637306523
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.543172610660786 with coef 0.9283683680881275
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.806436735313568 with coef 0.7192579254356757
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.662154046013573 with coef 0.8452315863174534
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.086490958862385 with coef 0.8663074884631806
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.988875005492762 with coef 0.8003561583146034
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.042293898742493 with coef 0.6886508369390885
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.506657282339795 with coef 0.7270967095242313
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.78539318706694 with coef 0.6714700683784883
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.025857585649117 with coef 0.7684665119749281
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.887388133396 with coef 0.9137682339302877
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.467894280975507 with coef 0.656428692300151
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.36072042153002 with coef 0.8561379802982161
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.18823240615528 with coef 0.662509806169442
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.8375758077494 with coef 0.9158525733842074
+Epoch: [1][100/299], lr: 0.00100	Time 1.713 (1.759)	Data 0.000 (0.036)	Loss 0.7942 (1.1119)	Prec@1 84.375 (69.214)	Prec@5 96.875 (91.986)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 35.29354888154159 with coef 0.566675798660189
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.263243357206534 with coef 0.7076328695623824
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.441587750892012 with coef 0.9783975806442559
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.685417400770962 with coef 0.9668647053384857
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.531367190271308 with coef 0.8499293661215189
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.586652126624543 with coef 0.9715032768312128
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.724047945473522 with coef 0.8430264534099435
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.68333032382108 with coef 0.7787152112999209
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 36.91771237760526 with coef 0.5417453767295789
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.09874236561601 with coef 0.7968526752718486
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 32.100175306658095 with coef 0.6230495568618181
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 32.559031627481474 with coef 0.614268883326339
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 36.89690075090492 with coef 0.5420509471790659
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.352891632748424 with coef 0.758929998222519
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 36.416607210558055 with coef 0.5491999813261439
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.2090732336108 with coef 0.9005328493281013
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.94894045070786 with coef 0.9547022221510112
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.047350575826098 with coef 0.997638063162162
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.29579184612465 with coef 0.6826919069144625
+Epoch: [1][120/299], lr: 0.00100	Time 1.716 (1.754)	Data 0.000 (0.030)	Loss 1.2548 (1.1017)	Prec@1 68.750 (69.680)	Prec@5 96.875 (92.071)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.960196820105036 with coef 0.8347176840892213
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.467207616814587 with coef 0.8522530812600693
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.987023885599264 with coef 0.8004154512985667
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.313068951796918 with coef 0.8226028577326866
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 31.263378747593737 with coef 0.6397261205025496
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.160373063908693 with coef 0.7102178637552459
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.518934444887922 with coef 0.7267723261616083
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.295639507429037 with coef 0.858529768784495
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.78827168828297 with coef 0.8068331770566195
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.41324870160763 with coef 0.6576081429585262
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.828215035616783 with coef 0.6937647709124665
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.126522931222166 with coef 0.7959716533300372
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.83182075721182 with coef 0.9600697045684857
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.660119858351333 with coef 0.96804859493182
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.012541442334452 with coef 0.7403968279954476
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.39697760949027 with coef 0.8929776306748372
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.56198497240961 with coef 0.7824118518803234
+Epoch: [1][140/299], lr: 0.00100	Time 1.712 (1.748)	Data 0.000 (0.026)	Loss 1.0800 (1.0941)	Prec@1 62.500 (69.858)	Prec@5 93.750 (92.110)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 34.0575205205005 with coef 0.587241810159411
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.721548454795894 with coef 0.7775581643208154
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 31.0122594755752 with coef 0.6449062512117735
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.697921561251423 with coef 0.9662805968615708
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.583216886281956 with coef 0.8135631757437122
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.914657847303648 with coef 0.9126311776964738
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.84136150122056 with coef 0.6702107073493268
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.082918833232053 with coef 0.8664415511961324
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.805389341855935 with coef 0.8769856852780383
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.511116040879873 with coef 0.9297518530415559
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.862697194478383 with coef 0.6929359326759706
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.299250581009183 with coef 0.8230706512253833
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.259012373269556 with coef 0.7337022972854361
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.842646689048557 with coef 0.773914539042763
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.550782378432256 with coef 0.8492286871248892
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.768248557119236 with coef 0.9187693694107082
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 32.790736777684025 with coef 0.6099283506679589
+Epoch: [1][160/299], lr: 0.00100	Time 1.705 (1.745)	Data 0.000 (0.023)	Loss 1.0340 (1.0786)	Prec@1 62.500 (70.070)	Prec@5 100.000 (92.372)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 33.34329609585437 with coef 0.5998207238571904
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.964529197774176 with coef 0.7417151567271172
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.67378633191098 with coef 0.7790046914560942
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 32.089715248356704 with coef 0.6232526479344247
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 40.123045579729244 with coef 0.4984666470609174
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.918783532560706 with coef 0.6468559792767369
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 37.02248381382221 with coef 0.5402122694029803
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.403046502768873 with coef 0.8927357267025325
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.380951837744096 with coef 0.7304347970997268
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.583495209993703 with coef 0.6539474923541323
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.44560147759473 with coef 0.7562694316839199
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.563696235634247 with coef 0.886379598056037
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.34834035357994 with coef 0.8949210403803537
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.162636394073093 with coef 0.6858090513402528
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.478754391207428 with coef 0.6561947953414278
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.43613442741087 with coef 0.9786586632144146
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.401868353231137 with coef 0.757522147009431
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.991910749079654 with coef 0.909425298610626
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.56750904948621 with coef 0.9724074972753988
+Epoch: [1][180/299], lr: 0.00100	Time 1.717 (1.741)	Data 0.000 (0.020)	Loss 0.8783 (1.0725)	Prec@1 78.125 (70.321)	Prec@5 93.750 (92.507)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.76836505914482 with coef 0.8784117765173957
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.698353466215753 with coef 0.8097705795391377
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.69095782664911 with coef 0.8100131287095663
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.617625196721548 with coef 0.7241752271435045
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.934374881718263 with coef 0.7711772537883094
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.956096085644305 with coef 0.6460762993068391
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.11887731294027 with coef 0.7657296965858196
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.11393357734833 with coef 0.6869562969519415
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 35.61492715816126 with coef 0.5615622885084841
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.732869311743126 with coef 0.7481426616339484
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.06604092655858 with coef 0.9493952883565042
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.831558207622116 with coef 0.7742467503992307
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 31.19996989502433 with coef 0.6410262595538444
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.325840237876143 with coef 0.8958229471726525
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.954589274285656 with coef 0.7154460329845456
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.446237530241923 with coef 0.7286973297510375
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 32.33622266549655 with coef 0.6185014312553097
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.06041327990123 with coef 0.9066013290975637
+Epoch: [1][200/299], lr: 0.00100	Time 1.712 (1.738)	Data 0.000 (0.018)	Loss 0.6039 (1.0587)	Prec@1 84.375 (70.693)	Prec@5 96.875 (92.693)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 43.14705066634063 with coef 0.46353110331135944
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.860265328322463 with coef 0.7445942828759498
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.439503169109475 with coef 0.8532604064047595
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.3057475982209 with coef 0.8966298893113627
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.4343172507755 with coef 0.6794789846696058
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 31.05238806752597 with coef 0.6440728473606717
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.251421797221195 with coef 0.8988189690646035
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.814515275566443 with coef 0.8766348860989963
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.302872179100845 with coef 0.9850822988772686
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.95855542624831 with coef 0.9108067271170699
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.631466700900972 with coef 0.846329186974987
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.047753695027808 with coef 0.7130695818804741
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.51410391694044 with coef 0.6554346165445366
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.27818212246087 with coef 0.9862817031240318
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.02027727257338 with coef 0.9989871632496738
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 41.147861982392705 with coef 0.48605198512034625
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.932522890150665 with coef 0.6912636024150002
+Epoch: [1][220/299], lr: 0.00100	Time 1.710 (1.736)	Data 0.000 (0.017)	Loss 1.0142 (1.0488)	Prec@1 75.000 (70.998)	Prec@5 90.625 (92.774)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.13055794040581 with coef 0.7109706121851446
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 35.70437428910052 with coef 0.5601554542885633
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.075003077467127 with coef 0.9060021387002583
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.793046794682432 with coef 0.8066777821066172
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.658655863992163 with coef 0.7231009380335542
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.444808625045745 with coef 0.7031159978481956
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.953102787249342 with coef 0.7706207679270596
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.947144571034787 with coef 0.6678433048119127
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.10269255313157 with coef 0.6643923949560256
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.628825690149817 with coef 0.9695171358954243
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.636658940005017 with coef 0.9691491271985492
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.431484920622278 with coef 0.703445495577804
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.60760799802153 with coef 0.9705153553930246
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.06476613844463 with coef 0.6652305196023282
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.569938617745468 with coef 0.8485384847350552
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.62953770526264 with coef 0.7510457080164602
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.3808652655768 with coef 0.8203154310621568
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.196565111780554 with coef 0.9010403140882931
+Epoch: [1][240/299], lr: 0.00100	Time 1.711 (1.734)	Data 0.000 (0.015)	Loss 0.6557 (1.0486)	Prec@1 84.375 (71.058)	Prec@5 96.875 (92.777)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.852720923651585 with coef 0.7448034803200974
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.82565663334917 with coef 0.9163527281667392
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.699056221771496 with coef 0.8810939012000537
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.170994678970136 with coef 0.736079051808863
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.00251108661913 with coef 0.9089871570233199
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.845406773161955 with coef 0.838735954066845
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.976003859748094 with coef 0.9534704576584773
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.44398692927973 with coef 0.8911072735436598
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.631803621883616 with coef 0.9693771987431347
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.21991981818436 with coef 0.7930239328350033
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.426065147494043 with coef 0.7865943819455355
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.74793231488626 with coef 0.7767614018635947
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.09805817549245 with coef 0.9050568987179483
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.129606264106393 with coef 0.9935614108688506
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.15398241256206 with coef 0.9027722252166871
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.977890870198664 with coef 0.8341017192991459
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.24706660555256 with coef 0.941306410494018
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.19177364024277 with coef 0.7094268085158963
+Epoch: [1][260/299], lr: 0.00100	Time 1.709 (1.732)	Data 0.000 (0.014)	Loss 0.8806 (1.0424)	Prec@1 71.875 (71.264)	Prec@5 96.875 (92.720)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.761410363811354 with coef 0.7473447672640376
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 29.489973297752904 with coef 0.6781966127288414
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.37595683969211 with coef 0.9815489970532452
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.260582598836166 with coef 0.8598236916473748
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.00432004250667 with coef 0.9997840445215088
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.00291686721352 with coef 0.7999066711382832
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.461523425747195 with coef 0.9774443272798324
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.274369029013563 with coef 0.8239143096199663
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.456023807025332 with coef 0.8906296222282696
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.204265607882547 with coef 0.9007278310028849
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 28.179288448560666 with coef 0.7097411290745901
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.933668162224603 with coef 0.7425650260312737
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.962287745610023 with coef 0.7152490590881616
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.82056268436909 with coef 0.7745764584792466
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 31.656417023065025 with coef 0.6317834385814383
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 30.48809926258289 with coef 0.6559936658480179
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+Epoch: [1][280/299], lr: 0.00100	Time 1.709 (1.731)	Data 0.000 (0.013)	Loss 0.7652 (1.0343)	Prec@1 84.375 (71.597)	Prec@5 90.625 (92.705)
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.266658119323388 with coef 0.7334965624491533
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.167193431738532 with coef 0.7643158236351683
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 21.397286803460428 with coef 0.9346979448238056
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.308190397517517 with coef 0.984824329913945
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.962389320035527 with coef 0.8012053551279015
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 27.72945748635774 with coef 0.7212546444458765
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.289081831858343 with coef 0.985751852436988
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 23.81721986136392 with coef 0.8397285710262019
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.516665972663887 with coef 0.9748172547453721
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 25.503904507168397 with coef 0.7841936513830103
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 24.642858185175097 with coef 0.8115941685705843
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.57406625276111 with coef 0.885972415251228
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 20.4191921034634 with coef 0.9794706812424622
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.76874775519329 with coef 0.8783970122132971
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 26.852972229082532 with coef 0.7447965100242956
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+input:  torch.Size([48, 2048])
+clipping gradient: 22.544898814524124 with coef 0.8871186410965561
+input:  torch.Size([3, 2048])
+clipping gradient: 231.7259407963183 with coef 0.08630885230747443
+Freezing BatchNorm2D except the first one.
+slurmstepd: error: *** JOB 221945 ON comp008 CANCELLED AT 2019-01-29T21:19:21 ***
