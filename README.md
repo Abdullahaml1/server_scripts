@@ -1,13 +1,14 @@
 # server_scripts
 our server codes in order to train, and test our model
 
-## Steps to get into Server from ubuntu.
+## Steps to get into Server from ubuntu
 
-1- first I generated the ssh key using
-   Open Terminal, and Type.
-  `ssh-keygen -C "my registered email address" `
+1- first I generated the ssh key using: <br/>
+   Open Terminal, and Type.<br/>
+  `ssh-keygen -C "your registered email address" `
 
-2- then copied the public key from
+2- Then copy the public key from your computer by <br/>
+  type in terminal: 
 
 `gedit /home/"login user"/.ssh/id_rsa.pub`
 
@@ -24,11 +25,11 @@ our server codes in order to train, and test our model
 
 ![dashborad](https://github.com/The-FaZe/server_scripts/blob/master/server_steps_photos/dashborad.png)
 
-6- click on Action Recgnition.
+6- Click on Action Recgnition.
 
 7- Scroll down untill you reach your name.
 
-8- In front of your name click add key
+8- In front of your name click add key.
 
 ![add key](https://github.com/The-FaZe/server_scripts/blob/master/server_steps_photos/adding_ssh_publickey.png)
 
@@ -39,14 +40,19 @@ our server codes in order to train, and test our model
 
 10- Then you will receive your username in your email address.
 
-then used ssh to get acess to the server
+**then use ssh to get acess to the server.**
 
-$ssh -i /home/"login user"/.ssh/id_rsa username@hpc.bibalex.org
+11- Open the terminal, and type
 
-$ssh-add ~/.ssh/id_rsa
-$chmod 600 ~/.ssh/id_rsa
+```
+ssh -i /home/"login user"/.ssh/id_rsa username@hpc.bibalex.org
 
+ssh-add ~/.ssh/id_rsa
 
-<<<<<<in order to log in>>>>>>>>>>>
-$ssh username@hpc.bibalex.org
+chmod 600 ~/.ssh/id_rsa
+```
+
+12 - **In order to login into the server every time type in the terminal:** 
+
+`ssh username@hpc.bibalex.org`
 
