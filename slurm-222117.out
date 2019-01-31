@@ -1,0 +1,23 @@
+Start Training ...................................
+
+Initializing TSN with base model: resnet101.
+TSN Configurations:
+    input_modality:     RGB
+    num_segments:       3
+    new_length:         1
+    consensus_module:   avg
+    dropout_ratio:      0.8
+        
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: first_conv_bias has 0 params, lr_mult: 2, decay_mult: 0
+group: normal_weight has 104 params, lr_mult: 1, decay_mult: 1
+group: normal_bias has 1 params, lr_mult: 2, decay_mult: 0
+group: BN scale/shift has 2 params, lr_mult: 1, decay_mult: 0
+Freezing BatchNorm2D except the first one.
+/lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/faze_tsn_pytorch/models.py:75: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  normal(self.new_fc.weight, 0, std)
+/lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/faze_tsn_pytorch/models.py:76: UserWarning: nn.init.constant is now deprecated in favor of nn.init.constant_.
+  constant(self.new_fc.bias, 0)
+/home/alex039u2/data/anaconda3/lib/python3.7/site-packages/torchvision/transforms/transforms.py:187: UserWarning: The use of the transforms.Scale transform is deprecated, please use transforms.Resize instead.
+  warnings.warn("The use of the transforms.Scale transform is deprecated, " +
+slurmstepd: error: *** JOB 222117 ON comp002 CANCELLED AT 2019-02-01T00:00:15 ***
