@@ -5,7 +5,7 @@
 #SBATCH --job-name=train_RGB_UCF101
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:2
-#SBATCH --time=10:00:00
+#SBATCH --time=24:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=2
 
