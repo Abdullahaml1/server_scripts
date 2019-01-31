@@ -5,7 +5,7 @@
 #SBATCH --job-name=train_RGB_UCF101
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:2
-#SBATCH --time=1:00:00
+#SBATCH --time=10:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=2
 
@@ -19,8 +19,8 @@ echo "Start Training ..................................."
 
 python3 main.py ucf101 RGB /home/alex039u2/data/tsn_paper/datasets/rgb_train_FileList1.txt /home/alex039u2/data/tsn_paper/datasets/rgb_test_FileList1.txt \
    --arch resnet101 --num_segments 3 \
-   --gd 20 --lr 0.001 --lr_steps 30 60 --epochs 80 \
-   -b 64 -j 2 --dropout 0.8 \
+   --gd 20 --lr 0.001 --lr_steps 30 60 --epochs 10 \
+   -b 50 -j 2 --dropout 0.8 \
    --gpus 0 1 --snapshot_pref ucf101_resnet101_
 
 
