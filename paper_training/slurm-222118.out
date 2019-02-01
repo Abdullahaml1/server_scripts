@@ -77,3 +77,4 @@ Epoch: [4][140/191], lr: 0.00100	Time 2.555 (2.637)	Data 0.000 (0.055)	Loss 0.37
 Epoch: [4][160/191], lr: 0.00100	Time 2.546 (2.633)	Data 0.000 (0.049)	Loss 0.4035 (0.4415)	Prec@1 86.000 (86.596)	Prec@5 98.000 (98.211)
 Epoch: [4][180/191], lr: 0.00100	Time 2.559 (2.625)	Data 0.000 (0.043)	Loss 0.4475 (0.4431)	Prec@1 84.000 (86.575)	Prec@5 98.000 (98.177)
 Freezing BatchNorm2D except the first one.
+slurmstepd: error: *** JOB 222118 ON comp002 CANCELLED AT 2019-02-01T14:16:31 DUE TO TIME LIMIT ***
