@@ -1,0 +1,21 @@
+Start Training ...................................
+
+          Initializing TSN with base model: resnet18.
+          TSN Configurations:
+              input_modality:     RGB
+              num_segments:       3
+              new_length:         1
+              consensus_module:   avg
+              dropout_ratio:      0.8
+               
+Load and modify the standard model FC output layer
+Dropout Layer added and The modified linear layer is : Linear(in_features=512, out_features=101, bias=True)
+Done. Loading and Modifying 
+ ---------------------------------------------------
+---------------------------------------------------
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: first_conv_bias has 0 params, lr_mult: 2, decay_mult: 0
+group: normal_weight has 20 params, lr_mult: 1, decay_mult: 1
+group: normal_bias has 1 params, lr_mult: 2, decay_mult: 0
+group: BN scale/shift has 2 params, lr_mult: 1, decay_mult: 0
+---------------------------------------------------
