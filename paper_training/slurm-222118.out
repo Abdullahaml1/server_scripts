@@ -1,0 +1,79 @@
+Start Training ...................................
+
+Initializing TSN with base model: resnet101.
+TSN Configurations:
+    input_modality:     RGB
+    num_segments:       3
+    new_length:         1
+    consensus_module:   avg
+    dropout_ratio:      0.8
+        
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: first_conv_bias has 0 params, lr_mult: 2, decay_mult: 0
+group: normal_weight has 104 params, lr_mult: 1, decay_mult: 1
+group: normal_bias has 1 params, lr_mult: 2, decay_mult: 0
+group: BN scale/shift has 2 params, lr_mult: 1, decay_mult: 0
+Freezing BatchNorm2D except the first one.
+/lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/faze_tsn_pytorch/models.py:75: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  normal(self.new_fc.weight, 0, std)
+/lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/faze_tsn_pytorch/models.py:76: UserWarning: nn.init.constant is now deprecated in favor of nn.init.constant_.
+  constant(self.new_fc.bias, 0)
+/home/alex039u2/data/anaconda3/lib/python3.7/site-packages/torchvision/transforms/transforms.py:187: UserWarning: The use of the transforms.Scale transform is deprecated, please use transforms.Resize instead.
+  warnings.warn("The use of the transforms.Scale transform is deprecated, " +
+Epoch: [0][0/191], lr: 0.00100	Time 17.692 (17.692)	Data 3.889 (3.889)	Loss 4.6124 (4.6124)	Prec@1 0.000 (0.000)	Prec@5 8.000 (8.000)
+Epoch: [0][20/191], lr: 0.00100	Time 2.547 (3.309)	Data 0.000 (0.194)	Loss 4.4748 (4.5689)	Prec@1 6.000 (4.190)	Prec@5 22.000 (13.143)
+Epoch: [0][40/191], lr: 0.00100	Time 2.572 (2.968)	Data 0.000 (0.102)	Loss 3.6698 (4.4032)	Prec@1 22.000 (7.659)	Prec@5 50.000 (21.122)
+Epoch: [0][60/191], lr: 0.00100	Time 2.573 (2.839)	Data 0.000 (0.069)	Loss 2.3959 (3.9507)	Prec@1 38.000 (14.459)	Prec@5 74.000 (32.426)
+Epoch: [0][80/191], lr: 0.00100	Time 2.564 (2.773)	Data 0.000 (0.052)	Loss 2.0515 (3.5183)	Prec@1 46.000 (21.235)	Prec@5 78.000 (42.370)
+Epoch: [0][100/191], lr: 0.00100	Time 2.566 (2.760)	Data 0.000 (0.042)	Loss 2.2783 (3.2151)	Prec@1 44.000 (26.594)	Prec@5 68.000 (49.525)
+Epoch: [0][120/191], lr: 0.00100	Time 2.559 (2.732)	Data 0.000 (0.035)	Loss 1.3291 (2.9430)	Prec@1 56.000 (31.736)	Prec@5 92.000 (55.421)
+Epoch: [0][140/191], lr: 0.00100	Time 2.569 (2.708)	Data 0.000 (0.030)	Loss 1.5701 (2.7505)	Prec@1 50.000 (35.319)	Prec@5 88.000 (59.518)
+Epoch: [0][160/191], lr: 0.00100	Time 2.571 (2.690)	Data 0.000 (0.026)	Loss 1.6427 (2.5871)	Prec@1 58.000 (38.522)	Prec@5 86.000 (63.081)
+Epoch: [0][180/191], lr: 0.00100	Time 2.564 (2.677)	Data 0.000 (0.024)	Loss 1.2262 (2.4531)	Prec@1 58.000 (41.193)	Prec@5 90.000 (65.856)
+Freezing BatchNorm2D except the first one.
+main.py:182: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  total_norm = clip_grad_norm(model.parameters(), args.clip_gradient)
+Epoch: [1][0/191], lr: 0.00100	Time 10.426 (10.426)	Data 7.695 (7.695)	Loss 1.1315 (1.1315)	Prec@1 66.000 (66.000)	Prec@5 90.000 (90.000)
+Epoch: [1][20/191], lr: 0.00100	Time 2.572 (3.029)	Data 0.000 (0.367)	Loss 0.9562 (1.1509)	Prec@1 76.000 (68.190)	Prec@5 92.000 (91.429)
+Epoch: [1][40/191], lr: 0.00100	Time 2.561 (2.844)	Data 0.000 (0.188)	Loss 1.2883 (1.1763)	Prec@1 60.000 (67.659)	Prec@5 92.000 (91.220)
+Epoch: [1][60/191], lr: 0.00100	Time 2.558 (2.752)	Data 0.000 (0.126)	Loss 1.0034 (1.1710)	Prec@1 64.000 (68.262)	Prec@5 96.000 (91.377)
+Epoch: [1][80/191], lr: 0.00100	Time 2.555 (2.706)	Data 0.000 (0.095)	Loss 0.8040 (1.1517)	Prec@1 80.000 (68.938)	Prec@5 98.000 (91.630)
+Epoch: [1][100/191], lr: 0.00100	Time 2.557 (2.692)	Data 0.000 (0.076)	Loss 1.3294 (1.1121)	Prec@1 66.000 (70.178)	Prec@5 86.000 (91.921)
+Epoch: [1][120/191], lr: 0.00100	Time 2.561 (2.670)	Data 0.000 (0.064)	Loss 0.9727 (1.0891)	Prec@1 72.000 (70.446)	Prec@5 98.000 (92.083)
+Epoch: [1][140/191], lr: 0.00100	Time 2.571 (2.657)	Data 0.000 (0.055)	Loss 0.9548 (1.0729)	Prec@1 72.000 (70.865)	Prec@5 96.000 (92.113)
+Epoch: [1][160/191], lr: 0.00100	Time 2.561 (2.645)	Data 0.000 (0.048)	Loss 0.9135 (1.0490)	Prec@1 72.000 (71.590)	Prec@5 98.000 (92.422)
+Epoch: [1][180/191], lr: 0.00100	Time 2.558 (2.637)	Data 0.000 (0.043)	Loss 1.0118 (1.0296)	Prec@1 70.000 (71.978)	Prec@5 94.000 (92.652)
+Freezing BatchNorm2D except the first one.
+Epoch: [2][0/191], lr: 0.00100	Time 7.043 (7.043)	Data 4.392 (4.392)	Loss 0.8288 (0.8288)	Prec@1 80.000 (80.000)	Prec@5 90.000 (90.000)
+Epoch: [2][20/191], lr: 0.00100	Time 2.571 (2.895)	Data 0.000 (0.210)	Loss 0.6722 (0.7380)	Prec@1 84.000 (78.857)	Prec@5 98.000 (96.190)
+Epoch: [2][40/191], lr: 0.00100	Time 2.563 (2.734)	Data 0.000 (0.108)	Loss 0.6999 (0.7362)	Prec@1 82.000 (78.439)	Prec@5 98.000 (96.439)
+Epoch: [2][60/191], lr: 0.00100	Time 2.565 (2.690)	Data 0.000 (0.073)	Loss 0.7462 (0.7361)	Prec@1 78.000 (78.000)	Prec@5 98.000 (96.197)
+Epoch: [2][80/191], lr: 0.00100	Time 2.562 (2.664)	Data 0.000 (0.056)	Loss 0.5153 (0.7394)	Prec@1 84.000 (78.198)	Prec@5 96.000 (96.123)
+Epoch: [2][100/191], lr: 0.00100	Time 2.562 (2.644)	Data 0.000 (0.045)	Loss 0.4133 (0.7361)	Prec@1 86.000 (78.158)	Prec@5 100.000 (96.020)
+Epoch: [2][120/191], lr: 0.00100	Time 2.569 (2.630)	Data 0.000 (0.038)	Loss 0.5176 (0.7293)	Prec@1 88.000 (78.397)	Prec@5 98.000 (96.215)
+Epoch: [2][140/191], lr: 0.00100	Time 2.568 (2.627)	Data 0.000 (0.032)	Loss 0.9775 (0.7212)	Prec@1 78.000 (78.681)	Prec@5 94.000 (96.142)
+Epoch: [2][160/191], lr: 0.00100	Time 2.563 (2.628)	Data 0.000 (0.028)	Loss 1.2222 (0.7205)	Prec@1 70.000 (78.944)	Prec@5 90.000 (96.124)
+Epoch: [2][180/191], lr: 0.00100	Time 2.572 (2.622)	Data 0.000 (0.025)	Loss 0.5096 (0.7175)	Prec@1 90.000 (79.050)	Prec@5 96.000 (96.166)
+Freezing BatchNorm2D except the first one.
+Epoch: [3][0/191], lr: 0.00100	Time 9.775 (9.775)	Data 7.107 (7.107)	Loss 0.4229 (0.4229)	Prec@1 92.000 (92.000)	Prec@5 100.000 (100.000)
+Epoch: [3][20/191], lr: 0.00100	Time 2.570 (2.907)	Data 0.000 (0.339)	Loss 0.5447 (0.5734)	Prec@1 84.000 (83.429)	Prec@5 96.000 (96.762)
+Epoch: [3][40/191], lr: 0.00100	Time 2.571 (2.781)	Data 0.000 (0.174)	Loss 0.6428 (0.5746)	Prec@1 80.000 (83.366)	Prec@5 96.000 (96.927)
+Epoch: [3][60/191], lr: 0.00100	Time 2.572 (2.715)	Data 0.000 (0.117)	Loss 0.8290 (0.5777)	Prec@1 80.000 (83.082)	Prec@5 94.000 (96.951)
+Epoch: [3][80/191], lr: 0.00100	Time 2.570 (2.677)	Data 0.000 (0.088)	Loss 0.8252 (0.5888)	Prec@1 68.000 (82.889)	Prec@5 100.000 (96.938)
+Epoch: [3][100/191], lr: 0.00100	Time 2.560 (2.654)	Data 0.000 (0.071)	Loss 0.9007 (0.5818)	Prec@1 76.000 (82.911)	Prec@5 96.000 (97.050)
+Epoch: [3][120/191], lr: 0.00100	Time 2.560 (2.639)	Data 0.000 (0.059)	Loss 0.3842 (0.5658)	Prec@1 90.000 (83.372)	Prec@5 96.000 (97.289)
+Epoch: [3][140/191], lr: 0.00100	Time 2.564 (2.630)	Data 0.000 (0.051)	Loss 0.5097 (0.5508)	Prec@1 80.000 (83.830)	Prec@5 100.000 (97.546)
+Epoch: [3][160/191], lr: 0.00100	Time 2.563 (2.623)	Data 0.000 (0.045)	Loss 0.6104 (0.5478)	Prec@1 80.000 (84.012)	Prec@5 98.000 (97.528)
+Epoch: [3][180/191], lr: 0.00100	Time 2.568 (2.616)	Data 0.000 (0.040)	Loss 0.4177 (0.5445)	Prec@1 90.000 (83.989)	Prec@5 98.000 (97.591)
+Freezing BatchNorm2D except the first one.
+Epoch: [4][0/191], lr: 0.00100	Time 10.342 (10.342)	Data 7.670 (7.670)	Loss 0.4577 (0.4577)	Prec@1 90.000 (90.000)	Prec@5 98.000 (98.000)
+Epoch: [4][20/191], lr: 0.00100	Time 2.552 (2.989)	Data 0.000 (0.366)	Loss 0.5671 (0.4656)	Prec@1 82.000 (87.143)	Prec@5 100.000 (97.905)
+Epoch: [4][40/191], lr: 0.00100	Time 2.563 (2.785)	Data 0.000 (0.188)	Loss 0.4768 (0.4608)	Prec@1 88.000 (87.317)	Prec@5 100.000 (97.902)
+Epoch: [4][60/191], lr: 0.00100	Time 2.551 (2.713)	Data 0.000 (0.127)	Loss 0.2108 (0.4565)	Prec@1 92.000 (87.016)	Prec@5 100.000 (98.098)
+Epoch: [4][80/191], lr: 0.00100	Time 2.556 (2.691)	Data 0.000 (0.096)	Loss 0.3852 (0.4466)	Prec@1 90.000 (86.988)	Prec@5 98.000 (98.074)
+Epoch: [4][100/191], lr: 0.00100	Time 2.548 (2.665)	Data 0.000 (0.077)	Loss 0.3935 (0.4439)	Prec@1 90.000 (86.990)	Prec@5 100.000 (98.139)
+Epoch: [4][120/191], lr: 0.00100	Time 2.554 (2.649)	Data 0.000 (0.064)	Loss 0.4244 (0.4410)	Prec@1 86.000 (86.744)	Prec@5 100.000 (98.099)
+Epoch: [4][140/191], lr: 0.00100	Time 2.555 (2.637)	Data 0.000 (0.055)	Loss 0.3707 (0.4365)	Prec@1 88.000 (86.681)	Prec@5 100.000 (98.213)
+Epoch: [4][160/191], lr: 0.00100	Time 2.546 (2.633)	Data 0.000 (0.049)	Loss 0.4035 (0.4415)	Prec@1 86.000 (86.596)	Prec@5 98.000 (98.211)
+Epoch: [4][180/191], lr: 0.00100	Time 2.559 (2.625)	Data 0.000 (0.043)	Loss 0.4475 (0.4431)	Prec@1 84.000 (86.575)	Prec@5 98.000 (98.177)
+Freezing BatchNorm2D except the first one.
