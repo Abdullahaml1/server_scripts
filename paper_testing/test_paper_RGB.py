@@ -18,7 +18,7 @@ cd ~/data/tsn_paper/server_scripts/faze_tsn_pytorch
 echo "Start Training ..................................."
 
 python3 test_models.py ucf101 RGB /home/alex039u2/data/tsn_paper/datasets/rgb_test_FileList1.txt ucf101_resnet101__rgb_checkpoint.pth \
-   --arch resnet18 --save_scores <score_file_name>
+   --arch resnet18 --save_scores /home/alex039u2/data/tsn_paper/server_scripts/paper_testing/testing_paper_resnet18_results
 
 
 echo "End of Testing....................................."
