@@ -5,7 +5,7 @@
 #SBATCH --job-name=train_FAZE_RGB_raisnet18_UCF101
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:2
-#SBATCH --time=60:00:00
+#SBATCH --time=9:30:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=2
 
@@ -21,7 +21,7 @@ python3 main.py ucf101 RGB /home/alex039u2/data/tsn_paper/datasets/rgb_train_Fil
    --arch resnet18 --num_segments 3 \
    --gd 20 --lr 0.001 --lr_steps 30 60 --epochs 80 \
    -b 32 -j 8 --dropout 0 \
-   --gpus 0 1 --snapshot_pref ucf101_resnet101_
+   --gpus 0 1 --snapshot_pref /home/alex039u2/data/tsn_paper/server_scripts/faze_training/ucf101_resnet18_
 
 
 
