@@ -4,7 +4,7 @@
 import torch 
 import subprocess
 
-print(subprocess.run(["nvidia-smi"]))
+subprocess.run(["nvidia-smi"])
 print()
 
 print("Current Cuda Devices: ", torch.cuda.current_device())
