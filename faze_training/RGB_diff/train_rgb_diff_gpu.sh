@@ -2,7 +2,7 @@
 
 
 
-#SBATCH --job-name=train_FAZE_RGB_raisnet18_UCF101
+#SBATCH --job-name=train_FAZE_RGB_diff_BNinception_UCF101
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:2
 #SBATCH --time=14:00:00
