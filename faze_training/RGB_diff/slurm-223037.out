@@ -1,0 +1,45 @@
+Start Training ...................................
+
+          Initializing TSN with base model: BNInception.
+          TSN Configurations:
+              input_modality:     RGBDiff
+              num_segments:       7
+              new_length:         5
+              consensus_module:   avg
+              dropout_ratio:      0.8
+               
+Load and modify the standard model FC output layer
+Dropout Layer added and The modified linear layer is : Linear(in_features=1024, out_features=101, bias=True)
+Done. Loading and Modifying 
+ ---------------------------------------------------
+Converting the ImageNet model to RGBDiff model
+The modified 1st layer is Conv2d(15, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3))
+Done. RGBDiff model is ready.
+---------------------------------------------------
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: first_conv_bias has 1 params, lr_mult: 2, decay_mult: 0
+group: normal_weight has 69 params, lr_mult: 1, decay_mult: 1
+group: normal_bias has 69 params, lr_mult: 2, decay_mult: 0
+group: BN scale/shift has 2 params, lr_mult: 1, decay_mult: 0
+---------------------------------------------------
+Sun Feb 10 22:06:24 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 367.55                 Driver Version: 367.55                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla K80           Off  | 0000:06:00.0     Off |                    0 |
+| N/A   46C    P0    72W / 149W |  11230MiB / 11439MiB |     26%   E. Process |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla K80           Off  | 0000:07:00.0     Off |                    0 |
+| N/A   34C    P0    79W / 149W |  11262MiB / 11439MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      8483    C   python3                                      11220MiB |
+|    1      8483    C   python3                                      11252MiB |
++-----------------------------------------------------------------------------+
