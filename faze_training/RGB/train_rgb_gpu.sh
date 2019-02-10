@@ -21,7 +21,7 @@ python3 main.py ucf101 RGB /home/alex039u2/data/tsn_paper/datasets/rgb_train_Fil
    --arch  BNInception --num_segments 3 \
    --gd 20 --lr 0.001 --lr_steps 30 60 --epochs 80 \
    -b 128 -j 2 --dropout 0.8 \
-   --gpus 0 1 --snapshot_pref /home/alex039u2/data/tsn_paper/server_scripts/faze_training/ucf101_bninception_256_
+   --gpus 0 1 --snapshot_pref /home/alex039u2/data/tsn_paper/server_scripts/faze_training/RGB/ucf101_bninception_128_
 
 
 
