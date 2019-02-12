@@ -7,7 +7,7 @@
 #SBATCH --gres=gpu:2
 #SBATCH --time=14:00:00
 #SBATCH --nodes=1
-#SBATCH --ntasks=2
+#SBATCH --ntasks=4
 
 source ~/data/anaconda3/bin/activate
 export LD_PRELOAD="/home/alex039u2/data/anaconda3/glibc-2.14/lib/libc.so.6"
