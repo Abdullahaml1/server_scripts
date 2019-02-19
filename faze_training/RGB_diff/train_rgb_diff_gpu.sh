@@ -21,6 +21,7 @@ python3 main.py ucf101 RGBDiff /home/alex039u2/data/tsn_paper/datasets/rgb_train
    --arch  BNInception --num_segments 3 \
    --gd 40 --lr 0.001 --lr_steps 80 160 --epochs 180 \
    -b 64 -j 2 --dropout 0.8 \
+   --resume /home/alex039u2/data/tsn_paper/server_scripts/faze_training/RGB_diff/ucf101_diff_bninception_64__rgbdiff_checkpoinut.pth.tar
    --gpus 0 1 --snapshot_pref /home/alex039u2/data/tsn_paper/server_scripts/faze_training/RGB_diff/ucf101_diff_bninception_64_
 
 
