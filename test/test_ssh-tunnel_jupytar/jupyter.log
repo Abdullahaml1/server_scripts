@@ -1,0 +1,25 @@
+[I 17:58:02.995 LabApp] Writing notebook server cookie secret to /home/alex039u2/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 17:58:06.260 LabApp] JupyterLab extension loaded from /home/alex039u2/data/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 17:58:06.260 LabApp] JupyterLab application directory is /lfs01/workdirs/alex039/alex039u2/anaconda3/share/jupyter/lab
+[W 17:58:06.266 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 17:58:06.267 LabApp] JupyterLab extension loaded from /home/alex039u2/data/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 17:58:06.267 LabApp] JupyterLab application directory is /lfs01/workdirs/alex039/alex039u2/anaconda3/share/jupyter/lab
+[I 17:58:06.272 LabApp] Serving notebooks from local directory: /lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/test/test_ssh-tunnel_jupytar
+[I 17:58:06.272 LabApp] The Jupyter Notebook is running at:
+[I 17:58:06.272 LabApp] http://localhost:38888/?token=1fb0040def191514835e9a7ff0afb35b408daf552ed3c441
+[I 17:58:06.272 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:58:06.273 LabApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:38888/?token=1fb0040def191514835e9a7ff0afb35b408daf552ed3c441
+[I 18:02:54.922 LabApp] 302 GET / (127.0.0.1) 0.67ms
+[I 18:02:55.023 LabApp] 302 GET /lab? (127.0.0.1) 0.69ms
+[W 18:03:09.532 LabApp] 401 POST /login?next=%2Flab%3F (127.0.0.1) 1.46ms referer=http://localhost:38888/login?next=%2Flab%3F
+[I 18:06:34.751 LabApp] 302 GET /?token=a3b51a9ee42324d6a371002e433f5ca863ea60c4733b087a (127.0.0.1) 0.40ms
+[I 18:06:34.855 LabApp] 302 GET /lab?token=a3b51a9ee42324d6a371002e433f5ca863ea60c4733b087a (127.0.0.1) 0.57ms
+[I 18:07:37.934 LabApp] 302 GET /?token=1fb0040def191514835e9a7ff0afb35b408daf552ed3c441 (127.0.0.1) 0.39ms
+[W 18:07:50.936 LabApp] Could not determine jupyterlab build status without nodejs
+[W 18:07:51.452 LabApp] 404 GET /lab/api/workspaces/lab?1550772471140 (127.0.0.1): Workspace 'lab' ('lab-a511') not found
+[W 18:07:51.452 LabApp] Workspace 'lab' ('lab-a511') not found
+[W 18:07:51.453 LabApp] 404 GET /lab/api/workspaces/lab?1550772471140 (127.0.0.1) 1.33ms referer=http://localhost:38888/lab
