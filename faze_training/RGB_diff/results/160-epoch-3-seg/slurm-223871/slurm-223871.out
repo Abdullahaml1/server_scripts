@@ -1,0 +1,51 @@
+Start Training ...................................
+
+          Initializing TSN with base model: BNInception.
+          TSN Configurations:
+              input_modality:     RGBDiff
+              num_segments:       3
+              new_length:         5
+              consensus_module:   avg
+              dropout_ratio:      0.8
+               
+Load and modify the standard model FC output layer
+Dropout Layer added and The modified linear layer is : Linear(in_features=1024, out_features=101, bias=True)
+Done. Loading and Modifying 
+ ---------------------------------------------------
+Converting the ImageNet model to RGBDiff model
+The modified 1st layer is Conv2d(15, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3))
+Done. RGBDiff model is ready.
+Loading checkpoint '/home/alex039u2/data/tsn_paper/server_scripts/faze_training/RGB_diff/_rgbdiff_checkpoint.pth.tar'
+Loaded checkpoint 'False' epoch 85
+---------------------------------------------------
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: first_conv_bias has 1 params, lr_mult: 2, decay_mult: 0
+group: normal_weight has 69 params, lr_mult: 1, decay_mult: 1
+group: normal_bias has 69 params, lr_mult: 2, decay_mult: 0
+group: BN scale/shift has 2 params, lr_mult: 1, decay_mult: 0
+---------------------------------------------------
+Epoch: [85][0/150], lr: 0.00010	Time 42.854 (42.854)	Data 25.822 (25.822)	Loss 0.1485 (0.1485)	Acc@1 98.438 (98.438)	Acc@5 100.000 (100.000)
+Epoch: [85][20/150], lr: 0.00010	Time 1.896 (3.492)	Data 0.000 (1.231)	Loss 0.0399 (0.0519)	Acc@1 100.000 (98.661)	Acc@5 100.000 (100.000)
+Epoch: [85][40/150], lr: 0.00010	Time 3.916 (2.509)	Data 2.350 (0.688)	Loss 0.1448 (0.0493)	Acc@1 95.312 (98.590)	Acc@5 100.000 (100.000)
+Epoch: [85][60/150], lr: 0.00010	Time 7.174 (2.385)	Data 4.777 (0.686)	Loss 0.0085 (0.0494)	Acc@1 100.000 (98.566)	Acc@5 100.000 (99.898)
+Epoch: [85][80/150], lr: 0.00010	Time 6.679 (2.306)	Data 4.780 (0.669)	Loss 0.0085 (0.0476)	Acc@1 100.000 (98.708)	Acc@5 100.000 (99.923)
+Epoch: [85][100/150], lr: 0.00010	Time 6.270 (2.283)	Data 4.967 (0.688)	Loss 0.0199 (0.0440)	Acc@1 100.000 (98.762)	Acc@5 100.000 (99.907)
+Epoch: [85][120/150], lr: 0.00010	Time 4.712 (2.257)	Data 3.089 (0.672)	Loss 0.0041 (0.0451)	Acc@1 100.000 (98.631)	Acc@5 100.000 (99.910)
+Epoch: [85][140/150], lr: 0.00010	Time 5.327 (2.239)	Data 4.031 (0.681)	Loss 0.0912 (0.0457)	Acc@1 96.875 (98.537)	Acc@5 100.000 (99.922)
+Epoch: [86][0/150], lr: 0.00010	Time 26.343 (26.343)	Data 23.782 (23.782)	Loss 0.0035 (0.0035)	Acc@1 100.000 (100.000)	Acc@5 100.000 (100.000)
+Epoch: [86][20/150], lr: 0.00010	Time 8.318 (3.458)	Data 6.224 (1.923)	Loss 0.0232 (0.0541)	Acc@1 100.000 (97.991)	Acc@5 100.000 (99.926)
+Epoch: [86][40/150], lr: 0.00010	Time 9.748 (2.778)	Data 7.826 (1.266)	Loss 0.0804 (0.0490)	Acc@1 98.438 (98.438)	Acc@5 100.000 (99.924)
+Epoch: [86][60/150], lr: 0.00010	Time 8.011 (2.511)	Data 6.141 (1.022)	Loss 0.1389 (0.0493)	Acc@1 98.438 (98.386)	Acc@5 98.438 (99.923)
+Epoch: [86][80/150], lr: 0.00010	Time 4.624 (2.382)	Data 3.216 (0.906)	Loss 0.0205 (0.0484)	Acc@1 100.000 (98.515)	Acc@5 100.000 (99.904)
+Epoch: [86][100/150], lr: 0.00010	Time 9.243 (2.334)	Data 7.277 (0.864)	Loss 0.0178 (0.0465)	Acc@1 98.438 (98.515)	Acc@5 100.000 (99.907)
+Epoch: [86][120/150], lr: 0.00010	Time 5.827 (2.275)	Data 4.408 (0.810)	Loss 0.0176 (0.0481)	Acc@1 100.000 (98.476)	Acc@5 100.000 (99.923)
+Epoch: [86][140/150], lr: 0.00010	Time 6.338 (2.242)	Data 4.983 (0.781)	Loss 0.0130 (0.0492)	Acc@1 100.000 (98.449)	Acc@5 100.000 (99.889)
+Epoch: [87][0/150], lr: 0.00010	Time 33.764 (33.764)	Data 29.147 (29.147)	Loss 0.0244 (0.0244)	Acc@1 100.000 (100.000)	Acc@5 100.000 (100.000)
+Epoch: [87][20/150], lr: 0.00010	Time 5.049 (3.147)	Data 3.180 (1.613)	Loss 0.0520 (0.0449)	Acc@1 96.875 (98.586)	Acc@5 100.000 (99.926)
+Epoch: [87][40/150], lr: 0.00010	Time 19.365 (2.948)	Data 15.448 (1.394)	Loss 0.0645 (0.0431)	Acc@1 98.438 (98.666)	Acc@5 100.000 (99.924)
+Epoch: [87][60/150], lr: 0.00010	Time 28.691 (3.204)	Data 25.964 (1.631)	Loss 0.0950 (0.0447)	Acc@1 95.312 (98.617)	Acc@5 100.000 (99.898)
+Epoch: [87][80/150], lr: 0.00010	Time 34.659 (3.692)	Data 32.223 (1.975)	Loss 0.0105 (0.0447)	Acc@1 100.000 (98.573)	Acc@5 100.000 (99.884)
+Epoch: [87][100/150], lr: 0.00010	Time 65.342 (4.423)	Data 60.003 (2.636)	Loss 0.0962 (0.0468)	Acc@1 95.312 (98.515)	Acc@5 100.000 (99.892)
+Epoch: [87][120/150], lr: 0.00010	Time 75.589 (5.227)	Data 71.168 (3.373)	Loss 0.0297 (0.0447)	Acc@1 98.438 (98.592)	Acc@5 100.000 (99.910)
+Epoch: [87][140/150], lr: 0.00010	Time 89.508 (6.204)	Data 87.653 (4.255)	Loss 0.0119 (0.0449)	Acc@1 100.000 (98.548)	Acc@5 100.000 (99.911)
+slurmstepd: error: *** JOB 223871 ON comp001 CANCELLED AT 2019-02-23T18:40:50 ***
