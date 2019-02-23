@@ -1,0 +1,59 @@
+Start Training ...................................
+
+          Initializing TSN with base model: BNInception.
+          TSN Configurations:
+              input_modality:     RGBDiff
+              num_segments:       3
+              new_length:         5
+              consensus_module:   avg
+              dropout_ratio:      0.8
+               
+Load and modify the standard model FC output layer
+Dropout Layer added and The modified linear layer is : Linear(in_features=1024, out_features=101, bias=True)
+Done. Loading and Modifying 
+ ---------------------------------------------------
+Converting the ImageNet model to RGBDiff model
+The modified 1st layer is Conv2d(15, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3))
+Done. RGBDiff model is ready.
+Loading checkpoint '_rgbdiff_checkpoint.pth.tar'
+Loaded checkpoint 'False' epoch 85
+---------------------------------------------------
+group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+group: first_conv_bias has 1 params, lr_mult: 2, decay_mult: 0
+group: normal_weight has 69 params, lr_mult: 1, decay_mult: 1
+group: normal_bias has 69 params, lr_mult: 2, decay_mult: 0
+group: BN scale/shift has 2 params, lr_mult: 1, decay_mult: 0
+---------------------------------------------------
+Epoch: [85][0/150], lr: 0.00010	Time 351.105 (351.105)	Data 190.811 (190.811)	Loss 0.0418 (0.0418)	Acc@1 98.438 (98.438)	Acc@5 100.000 (100.000)
+Epoch: [85][20/150], lr: 0.00010	Time 1.406 (19.471)	Data 0.001 (9.089)	Loss 0.0429 (0.0453)	Acc@1 100.000 (98.363)	Acc@5 100.000 (100.000)
+Epoch: [85][40/150], lr: 0.00010	Time 1.428 (12.457)	Data 0.001 (6.417)	Loss 0.0089 (0.0457)	Acc@1 100.000 (98.628)	Acc@5 100.000 (99.924)
+Epoch: [85][60/150], lr: 0.00010	Time 1.330 (9.371)	Data 0.000 (4.803)	Loss 0.0273 (0.0427)	Acc@1 100.000 (98.617)	Acc@5 100.000 (99.949)
+Epoch: [85][80/150], lr: 0.00010	Time 1.394 (8.962)	Data 0.001 (5.031)	Loss 0.0194 (0.0469)	Acc@1 100.000 (98.515)	Acc@5 100.000 (99.942)
+Epoch: [85][100/150], lr: 0.00010	Time 2.725 (8.134)	Data 0.000 (4.501)	Loss 0.0325 (0.0468)	Acc@1 98.438 (98.546)	Acc@5 100.000 (99.938)
+Epoch: [85][120/150], lr: 0.00010	Time 1.438 (8.918)	Data 0.030 (5.449)	Loss 0.0454 (0.0473)	Acc@1 98.438 (98.554)	Acc@5 100.000 (99.910)
+Epoch: [85][140/150], lr: 0.00010	Time 81.949 (9.665)	Data 80.450 (6.440)	Loss 0.0128 (0.0485)	Acc@1 100.000 (98.504)	Acc@5 100.000 (99.900)
+Epoch: [86][0/150], lr: 0.00010	Time 135.381 (135.381)	Data 86.583 (86.583)	Loss 0.0146 (0.0146)	Acc@1 100.000 (100.000)	Acc@5 100.000 (100.000)
+Epoch: [86][20/150], lr: 0.00010	Time 2.270 (12.585)	Data 0.003 (8.262)	Loss 0.0261 (0.0475)	Acc@1 98.438 (98.438)	Acc@5 100.000 (100.000)
+Epoch: [86][40/150], lr: 0.00010	Time 1.394 (9.480)	Data 0.000 (6.336)	Loss 0.1116 (0.0469)	Acc@1 98.438 (98.666)	Acc@5 100.000 (99.962)
+Epoch: [86][60/150], lr: 0.00010	Time 32.850 (8.354)	Data 25.970 (5.649)	Loss 0.0346 (0.0492)	Acc@1 98.438 (98.514)	Acc@5 100.000 (99.923)
+Epoch: [86][80/150], lr: 0.00010	Time 1.454 (9.512)	Data 0.000 (6.996)	Loss 0.1442 (0.0494)	Acc@1 95.312 (98.476)	Acc@5 100.000 (99.904)
+Epoch: [86][100/150], lr: 0.00010	Time 1.527 (22.469)	Data 0.000 (20.070)	Loss 0.0377 (0.0480)	Acc@1 98.438 (98.530)	Acc@5 100.000 (99.907)
+Traceback (most recent call last):
+  File "main.py", line 391, in <module>
+    main()
+  File "main.py", line 144, in main
+    train(train_loader, model, criterion, optimizer, epoch)
+  File "main.py", line 194, in train
+    for i, (input, target) in enumerate(train_loader):
+  File "/home/alex039u2/data/anaconda3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 637, in __next__
+  File "/home/alex039u2/data/anaconda3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 658, in _process_next_batch
+PermissionError: Traceback (most recent call last):
+  File "/home/alex039u2/data/anaconda3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 138, in _worker_loop
+  File "/home/alex039u2/data/anaconda3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 138, in <listcomp>
+  File "/lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/real-time-action-recognition/UCF_Dataset.py", line 137, in __getitem__
+  File "/lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/real-time-action-recognition/UCF_Dataset.py", line 116, in Vid2Frames
+  File "/home/alex039u2/data/anaconda3/lib/python3.7/site-packages/PIL/Image.py", line 2580, in open
+PermissionError: [Errno 13] Permission denied: '/home/alex039u2/data/tsn_paper/datasets/jpegs_256/v_JumpRope_g15_c01/frame000099.jpg'
+
+/var/spool/slurmd/job223844/slurm_script: line 25: --gpus: command not found
+End of Training .................................
