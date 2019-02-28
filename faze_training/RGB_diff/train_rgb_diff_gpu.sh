@@ -17,13 +17,14 @@ cd /lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/real-time-action-r
 
 echo "Start Training ..................................."
 
-python3 main.py ucf101 RGBDiff /lfs01/workdirs/alex039/alex039u2/tsn_paper/datasets/rgb_train_FileList1.txt /lfs01/workdirs/alex039/alex039u2/tsn_paper/datasets/rgb_test_FileList1.txt \
+python3 -u  main.py ucf101 RGBDiff /lfs01/workdirs/alex039/alex039u2/tsn_paper/datasets/rgb_train_FileList1.txt /lfs01/workdirs/alex039/alex039u2/tsn_paper/datasets/rgb_test_FileList1.txt \
    --arch  BNInception --num_segments 3 \
    --gd 40 --lr 0.001 --lr_steps 80 160 --epochs 180 \
-   -b 64 -j 12 --dropout 0.8 \
+   -b 64 -j 2 --dropout 0.8 \
    --resume /lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/real-time-action-recognition/_rgbdiff_checkpoint.pth.tar
-   --gpus 0 1 --snapshot_pref /lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/faze_training/RGB_diff/test1_ucf101 
+   --gpus 0 1 --snapshot_pref /lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/faze_training/RGB_diff/test1_ucf101
 
 
 
 echo "End of Training ................................."
+
