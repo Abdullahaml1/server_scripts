@@ -1,0 +1,22 @@
+/var/spool/slurmd/job03020/slurm_script: /usr/share/lmod/lmod/libexec/lmod: No such file or directory
+Starting System  ...................................
+
+          Initializing TSN with base model: BNInception.
+          TSN Configurations:
+              input_modality:     RGB
+              num_segments:       1
+              new_length:         1
+              consensus_module:   avg
+              dropout_ratio:      0.7
+               
+Load and modify the standard model FC output layer
+Dropout Layer added and The modified linear layer is : Linear(in_features=1024, out_features=101, bias=True)
+Done. Loading and Modifying 
+ ---------------------------------------------------
+epoch 80, best acc1@: 84.27174209042136
+port: 9390
+copy the following command 
+ ssh -L localhost:9390:localhost:9390 alex039u4@hpc.bibalex.org -N 
+starting up on localhost : 9390
+step#1
+slurmstepd: error: *** JOB 3020 ON comp004 CANCELLED AT 2019-04-07T12:22:34 DUE TO TIME LIMIT ***

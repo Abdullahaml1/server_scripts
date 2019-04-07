@@ -1,0 +1,30 @@
+/var/spool/slurmd/job00334/slurm_script: /usr/share/lmod/lmod/libexec/lmod: No such file or directory
+Starting System  ...................................
+
+          Initializing TSN with base model: BNInception.
+          TSN Configurations:
+              input_modality:     RGB
+              num_segments:       1
+              new_length:         1
+              consensus_module:   avg
+              dropout_ratio:      0.7
+               
+Load and modify the standard model FC output layer
+Dropout Layer added and The modified linear layer is : Linear(in_features=1024, out_features=101, bias=True)
+Done. Loading and Modifying 
+ ---------------------------------------------------
+epoch 80, best acc1@: 84.27174209042136
+port: 9880
+copy the following command 
+ ssh -L localhost:9880:localhost:9880 alex039u4@hpc.bibalex.org -N 
+starting up on localhost : 9880
+step#1
+client_address is  127.0.0.1 55952
+client_address is  127.0.0.1 55954
+polymerization.py:163: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  scores = softmax(torch.FloatTensor(scores))
+The secound process is terminated 
+ The total average Rate is  65.68874005938736 KB/s
+The program has been terminated 
+sending results is stopped
+slurmstepd: error: *** JOB 334 ON comp007 CANCELLED AT 2019-03-12T15:32:58 ***
