@@ -19,5 +19,5 @@ echo "Starting System  ..................................."
 
 
 python3 -u polymerization.py ucf101 RGB  ~/data/tsn_paper/server_scripts/faze_training/RGB/bninception_results/slurm-223040/ucf101_bninception_128__rgb_checkpoint.pth.tar \
---arch BNInception --classInd_file UCF_lists/classInd.txt -j 2 --gpus 0 1 --test_segments 5
+--arch BNInception --classInd_file UCF_lists/classInd.txt -j 2 --gpus 0 1 --test_segments 5 --psi 9.5
 
