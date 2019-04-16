@@ -12,7 +12,7 @@
 source ~/data/anaconda3/bin/activate
 module load CUDA
 
-cd ~/data/tsn_paper/server_scripts/real-time-action-recognition/
+cd ~/data/tsn_paper/real-time-action-recognition/
 
 
 echo "Starting System  ..................................."
