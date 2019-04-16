@@ -18,7 +18,7 @@ cd ~/data/tsn_paper/real-time-action-recognition/
 echo "Starting System  ..................................."
 
 
-python3 -u polymerization.py ucf101 RGB \
+python3 -u polymerization.py ucf101 \
 ~/data/tsn_paper/server_scripts/weights/RGB/kinetics/Kinetics_BNInception__rgb_model_best.pth.tar ~/data/tsn_paper/server_scripts/weights/RGB_diff/UCF101-3seg_rgbdiff_kinetics_flow_model_best.pth.tar \
 --arch BNInception --classInd_file UCF_lists/classInd.txt -j 2 --gpus 0 1 --test_segments 3 --psi 9.5
 
