@@ -1,0 +1,4 @@
+/var/spool/slurmd/job17597/slurm_script: /usr/share/lmod/lmod/libexec/lmod: No such file or directory
+Current Cuda Devices:  0
+cuda Device Name:  Tesla K80
+Device Count:  2
