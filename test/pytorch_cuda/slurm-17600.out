@@ -1,0 +1,9 @@
+/var/spool/slurmd/job17600/slurm_script: /usr/share/lmod/lmod/libexec/lmod: No such file or directory
+tensor([[0.4881, 0.5022, 0.6058],
+        [0.0647, 0.1335, 0.6278],
+        [0.4941, 0.1086, 0.8985],
+        [0.4410, 0.2769, 0.5886],
+        [0.7106, 0.7044, 0.6343]])
+Cuda current device 0
+Cuda Availbility: True
+Cuda Version: 9.2.148
