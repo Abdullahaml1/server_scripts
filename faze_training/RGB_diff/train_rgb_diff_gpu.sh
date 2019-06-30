@@ -8,11 +8,12 @@
 #SBATCH --time=180:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=8
+#SBATCH --account=g.alex039
 
 source ~/data/anaconda3/bin/activate
 module load CUDA
 
-cd ~/data/tsn_paper/server_scripts/real-time-action-recognition/
+cd ~/data/tsn_paper/real-time-action-recognition/
 
 
 echo "Start Training ..................................."
