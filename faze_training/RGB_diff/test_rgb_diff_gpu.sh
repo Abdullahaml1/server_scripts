@@ -8,18 +8,19 @@
 #SBATCH --time=14:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=2
+#SBATCH --account=g.alex039
 
-source /lfs01/workdirs/alex039/alex039u2/anaconda3/bin/activate
-export LD_PRELOAD="/lfs01/workdirs/alex039/alex039u2/anaconda3/glibc-2.14/lib/libc.so.6"
-module load CUDA/8.0.61
+source ~/data/anaconda3/bin/activate
+module load CUDA
 
-cd /lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/real-time-action-recognition/
+cd ~/data/tsn_paper/real-time-action-recognition/
 
 echo "Start Testing ..................................."
 
-python3 -u  test_models.py ucf101 RGBDiff /lfs01/workdirs/alex039/alex039u2/tsn_paper/datasets/rgb_test_FileList1.txt /lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/faze_training/RGB_diff/results/180-epoch-3-seg/_rgbdiff_checkpoint.pth.tar \
+python3 -u  test_models.py ucf101 RGBDiff ~/data/tsn_paper/datasets/rgb_test_FileList1.txt ~/data/tsn_paper/server_scripts/faze_training/RGB_diff/results/180-epoch-3-seg/_rgbdiff_checkpoint.pth.tar \
    --arch  BNInception \
-   --save_scores /lfs01/workdirs/alex039/alex039u2/tsn_paper/server_scripts/faze_training/RGB_diff/scores_RGBdiff_BNinception \
+   --classInd_file UCF_lists/classInd.txt \
+   --save_scores ~/data/tsn_paper/server_scripts/faze_training/RGB_diff/scores_RGBdiff_BNinception \
    --gpus 0 1 -j 2
 
 
